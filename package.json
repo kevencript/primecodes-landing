@@ -1,0 +1,19 @@
+{
+  "name": "primecodes",
+  "version": "1.0.0",
+  "description": "PrimeCodes Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevencript/primecodes.git"
+  },
+  "author": "Gabriel Braga & joão Vitor Brito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevencript/primecodes/issues"
+  },
+  "homepage": "https://github.com/kevencript/primecodes#readme"
+}
