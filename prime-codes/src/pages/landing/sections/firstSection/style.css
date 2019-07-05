@@ -1,0 +1,141 @@
+#main-banner {
+  background-image: linear-gradient(to left, #7b3af8, #9c30ff, #c621ff);
+}
+
+#main-banner .section-image {
+  width: 100%;
+  margin-top: 5px;
+}
+
+#main-banner #wave-div {
+  margin-top: 50px;
+}
+#main-banner .promo-title {
+  color: white;
+  font-size: 30px;
+  margin-top: 90px;
+}
+
+#main-banner #bottom-wave path {
+  fill: white;
+}
+
+#main-banner .promo-subtitle {
+  color: rgb(255, 255, 255, 0.6);
+  font-size: 20px;
+  margin-top: 30px;
+  max-width: 32ch;
+}
+
+#main-banner .btn-design-grafico {
+  background-color: white;
+  border-radius: 7px;
+  padding: 7px 0;
+  color: rgb(71, 71, 71, 0.9);
+  width: 200px;
+  margin-left: 20px;
+  border-color: transparent;
+  transition: all 0.5s;
+}
+
+#main-banner #btn-section {
+  margin-top: 10%;
+}
+
+#main-banner .btn-design-grafico:hover {
+  background-color: #ef629f;
+  transition: all 0.5s;
+  color: white;
+  box-shadow: -2px 5px 9px -8px rgba(0, 0, 0, 0.3);
+}
+
+#main-banner .btn-web-site {
+  background-color: white;
+  border-radius: 7px;
+  padding: 7px 0;
+  width: 200px;
+  color: rgb(71, 71, 71, 0.9);
+  transition: all 0.5s;
+  border-color: transparent;
+}
+
+#main-banner .btn-web-site:hover {
+  background-color: #a8e063;
+  transition: all 0.5s;
+  color: white;
+  box-shadow: -2px 5px 9px -8px rgba(0, 0, 0, 0.3);
+}
+
+/* BREAKPOINTS  */
+
+/* Dispositivos extra-pequenos (extra-small) */
+@media (max-width: 576px) {
+  #main-banner {
+    padding-top: 15px;
+  }
+
+  #main-banner .promo-title {
+    margin-top: 20px;
+  }
+
+  #main-banner .promo-subtitle {
+    display: show;
+  }
+
+  #main-banner .col-md-6 .section-image {
+    width: 90%;
+    margin-top: auto;
+    margin-left: 20px;
+    align: center;
+  }
+
+  #main-banner .promo-title {
+    font-size: 28px;
+  }
+
+  #main-banner .btn-web-site {
+    float: center;
+    margin-right: 0;
+  }
+
+  #main-banner .btn-design-grafico {
+    float: center;
+  }
+}
+
+/* Dispositivos pequenois (small)*/
+@media (max-width: 767px) {
+  #main-banner .generalTexts {
+    text-align: center;
+  }
+
+  #main-banner .section-image {
+    margin-top: 30px;
+    margin: 6px;
+  }
+
+  #main-banner .btn-web-site {
+    margin: 6px;
+  }
+}
+
+/* Dispositivos médios (md) */
+@media (max-width: 991px) {
+  #main-banner .btn-design-grafico {
+    margin: auto;
+  }
+
+  #main-banner .section-image {
+    margin-top: 40px;
+  }
+
+  #main-banner .btn-web-site {
+    margin-left: auto;
+    margin-bottom: 20px;
+    float: center;
+  }
+
+  #main-banner .promo-subtitle {
+    display: none;
+  }
+}

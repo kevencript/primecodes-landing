@@ -1,13 +1,21 @@
-import React from "react";
+import React, { Component } from "react";
+import { BrowserRouter, Route } from "react-router-dom";
 
-import "./App.css";
+//components import
+import Header from "./components/Header/index";
+import LandingPage from "./pages/landing/index";
 
-function App() {
-  return (
-    <div className="App">
-      <button className="btn btn-primary">Ola</button>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <BrowserRouter>
+          <Header />
+          <LandingPage exact path="/" component={LandingPage} />
+        </BrowserRouter>
+      </div>
+    );
+  }
 }
 
 export default App;

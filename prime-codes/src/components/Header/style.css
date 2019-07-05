@@ -1,0 +1,58 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  background-image: linear-gradient(to left, #7b3af8, #9c30ff, #c621ff);
+
+  padding: 0;
+}
+
+.nav-link {
+  color: rgb(255, 255, 255, 0.5);
+  transition: all 0.5s;
+}
+
+.nav-link:hover {
+  color: rgb(255, 255, 255, 1);
+  transition: all 0.5s;
+}
+
+.nav-link .fas {
+  font-size: 25px;
+}
+
+.fa-bars {
+  font-size: 27px;
+  border-color: transparent;
+  color: rgb(255, 255, 255, 0.5);
+  transition: all 0.5s;
+}
+
+.fa-bars:hover {
+  color: rgb(255, 255, 255, 0.9);
+}
+.navbar-brand {
+  margin-left: 10px;
+}
+
+.navbar-brand h2 {
+  float: right;
+  color: rgb(255, 255, 255, 1);
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: 9px;
+  margin-left: 5px;
+  font-size: 31px;
+}
+
+.navbar-brand img {
+  width: 100%;
+  max-width: 70px;
+  margin: auto;
+}
