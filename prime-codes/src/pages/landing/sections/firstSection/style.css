@@ -1,5 +1,5 @@
 #main-banner {
-  background-image: linear-gradient(to left, #7b3af8, #9c30ff, #c621ff);
+  background-image: linear-gradient(to right, #22215b, #35337d);
 }
 
 #main-banner .section-image {
@@ -13,7 +13,7 @@
 #main-banner .promo-title {
   color: white;
   font-size: 30px;
-  margin-top: 90px;
+  margin-top: 70px;
 }
 
 #main-banner #bottom-wave path {
@@ -23,15 +23,15 @@
 #main-banner .promo-subtitle {
   color: rgb(255, 255, 255, 0.6);
   font-size: 20px;
-  margin-top: 30px;
+  margin-top: 5px;
   max-width: 32ch;
 }
 
 #main-banner .btn-design-grafico {
-  background-color: white;
+  background-color: #ef629f;
   border-radius: 7px;
   padding: 7px 0;
-  color: rgb(71, 71, 71, 0.9);
+  color: white;
   width: 200px;
   margin-left: 20px;
   border-color: transparent;
@@ -39,30 +39,30 @@
 }
 
 #main-banner #btn-section {
-  margin-top: 10%;
+  margin-top: 20px;
 }
 
 #main-banner .btn-design-grafico:hover {
-  background-color: #ef629f;
+  background-color: white;
   transition: all 0.5s;
-  color: white;
+  color: rgb(71, 71, 71, 0.9);
   box-shadow: -2px 5px 9px -8px rgba(0, 0, 0, 0.3);
 }
 
 #main-banner .btn-web-site {
-  background-color: white;
+  background-color: #54c1f4;
   border-radius: 7px;
   padding: 7px 0;
   width: 200px;
-  color: rgb(71, 71, 71, 0.9);
+  color: white;
   transition: all 0.5s;
   border-color: transparent;
 }
 
 #main-banner .btn-web-site:hover {
-  background-color: #a8e063;
+  background-color: white;
   transition: all 0.5s;
-  color: white;
+  color: rgb(71, 71, 71, 0.9);
   box-shadow: -2px 5px 9px -8px rgba(0, 0, 0, 0.3);
 }
 

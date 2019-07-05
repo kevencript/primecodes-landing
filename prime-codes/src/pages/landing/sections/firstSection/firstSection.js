@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./style.css";
 
-import image from "../../../../img/SVG/img.svg";
+import image from "../../../../img/relax.svg";
 
 export default class FirstSection extends Component {
   render() {
@@ -21,8 +21,23 @@ export default class FirstSection extends Component {
               </p>
 
               <section id="btn-section">
-                <button className="btn-web-site">WebSites</button>
-                <button className="btn-design-grafico">Design Gráfico</button>
+                <button
+                  data-toggle="tooltip"
+                  data-placement="bottom"
+                  title="Obtenha seu site incrível!"
+                  className="btn-web-site"
+                >
+                  WebSites
+                </button>
+                <button
+                  data-toggle="tooltip"
+                  data-placement="bottom"
+                  title="Que tal uma Logotipo?"
+                  className="btn-web-site"
+                  className="btn-design-grafico"
+                >
+                  Design Gráfico
+                </button>
               </section>
             </div>
 
