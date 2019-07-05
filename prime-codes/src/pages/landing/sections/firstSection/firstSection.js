@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./style.css";
 
-import image from "../../../../img/relax.svg";
+import image from "../../../../img/first-sec-img.svg";
 
 export default class FirstSection extends Component {
   render() {
