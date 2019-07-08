@@ -12,7 +12,7 @@ export default class FirstSection extends Component {
             {/* Lado ESQUERDO*/}
             <div className="col-md-6 col-sm-12 generalTexts">
               <h1 className="promo-title">
-                Soluções em Desenvolvimento Web e Design Gráfico reunidos em um
+                Soluções em Desenvolvimento Web e Design Gráfico reunidas em um
                 só lugar!
               </h1>
               <p className="promo-subtitle ">

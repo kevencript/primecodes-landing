@@ -1,0 +1,7 @@
+#third-sec #bottom-wave {
+  transform: rotateY(180deg);
+  background-color: #fcfcfc;
+}
+#third-sec .cls-1 {
+  fill: black;
+}

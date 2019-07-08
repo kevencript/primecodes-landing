@@ -1,0 +1,108 @@
+#second-sec {
+  background-size: 100%;
+  padding-bottom: 30px;
+  background-color: #fcfcfc;
+}
+
+#second-sec .card-title {
+  font-weight: 700;
+  text-align: center;
+  font-size: 25px;
+  color: rgb(66, 66, 66);
+}
+
+#second-sec .card-text {
+  color: rgb(66, 66, 66, 0.6);
+  font-weight: 500;
+  font-size: 19px;
+  text-align: center;
+}
+
+#second-sec .card-body {
+  padding-top: 0;
+}
+
+#second-sec .card {
+  width: 100%;
+  background-color: white;
+  max-width: 90%;
+  margin: auto;
+  box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.11);
+  border-color: rgb(217, 217, 217, 0.3);
+  transition: all 0.2s;
+}
+#second-sec .card:hover {
+  transition: all 0.2s;
+  box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.31);
+}
+
+#second-sec .card-section {
+  margin: 70px 0px;
+  padding: 0;
+}
+
+#second-sec .title {
+  text-align: center;
+  font-weight: 800;
+  color: #4b4b4b;
+}
+
+#second-sec .sub-title {
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+  max-width: 67ch;
+  color: rgb(59, 59, 59, 0.6);
+}
+
+#second-sec .card-img-top {
+  width: 100%;
+  max-width: 300px;
+  max-height: 350px;
+  margin: auto;
+}
+
+/* BREAKPOINTS  */
+
+/* Dispositivos extra-pequenos (extra-small) */
+@media (max-width: 576px) {
+  #second-sec .card-img-top {
+    max-width: 250px;
+  }
+
+  #second-sec .card-section {
+    margin: 15px auto;
+    padding: 0;
+    max-width: 88%;
+  }
+  #second-sec .card-title {
+    font-size: 25px;
+  }
+  #second-sec .card-text {
+    font-size: 16px;
+  }
+}
+
+/* Dispositivos pequenois (small)*/
+@media (max-width: 768px) {
+  #second-sec .card-img-top {
+    max-width: 220px;
+    max-height: 300px;
+  }
+
+  #second-sec .card {
+    max-width: 460px;
+  }
+
+  #second-sec .card-section {
+    margin: 15px auto;
+  }
+}
+
+/* Dispositivos médios (md) */
+@media (max-width: 991px) {
+  #second-sec .card-img-top {
+    max-width: 250px;
+    max-height: 300px;
+  }
+}
