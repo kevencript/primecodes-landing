@@ -1,7 +1,45 @@
 #third-sec #bottom-wave {
   transform: rotateY(180deg);
-  background-color: #fcfcfc;
+  transform: rotateX(180deg);
+  padding: 0;
+  width: 100%;
 }
 #third-sec .cls-1 {
-  fill: black;
+  fill: #fcfcfc;
+  width: 100%;
+}
+
+#third-sec {
+  background-image: url("../../../../img/bg-sec-3.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#third-sec .title {
+  color: white;
+  font-size: 30px;
+  margin-top: 70px;
+  border-color: transparent;
+}
+
+#third-sec input,
+textarea {
+  border-color: transparent;
+  color: rgb(66, 66, 66);
+  width: 70%;
+  height: 40px;
+  padding: 0 10px;
+  margin-top: 12px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+#third-sec input,
+textarea:focus {
+  border-color: transparent;
+  outline: transparent;
+}
+
+#third-sec textarea {
+  height: 100px;
 }

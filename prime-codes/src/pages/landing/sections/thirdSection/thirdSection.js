@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./style.css";
 
+import astronauta from "../../../../img/astronauta.svg";
+
 export default class ThirdSection extends Component {
   render() {
     return (
@@ -23,7 +25,18 @@ export default class ThirdSection extends Component {
 
         {/* Aqui ficara o conteúdo */}
         <div className="container">
-          <div className="row" />
+          <div className="row">
+            <div className="col-md-6 col-sm-12 text-center ">
+              <h1 className="title">Entre em Contato</h1>
+              <input placeholder="Digite o seu nome" />
+              <input placeholder="Qual seu e-mail?" />
+              <input placeholder="Digite seu telefone com DDD" />
+              <textarea placeholder="Digite o que nos deseja enviar" />
+            </div>
+            <div className="col-md-6 col-sm-12 text-center">
+              <img alt="Astronauta PrimeCodes" src={astronauta} />
+            </div>
+          </div>
         </div>
       </section>
     );

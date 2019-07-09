@@ -14,8 +14,10 @@ export default class SecondSection extends Component {
             <div className="col-md-12">
               <h1 className="title">A final... Quem somos?</h1>
               <p className="sub-title">
-                Somos artistas. Desenvolvedores e Designers trabalhando para que
-                seu projeto tenha mais desempenho e beleza.
+                Somos uma empresa junta duas áreas importantes para qualquer
+                negócio, seja ele pessoal ou empresarial. Somos artistas.
+                Desenvolvedores e Designers trabalhando para que seu projeto
+                tenha mais desempenho e beleza.
               </p>
             </div>
           </div>
