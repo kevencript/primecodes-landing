@@ -28,7 +28,7 @@ export default class SecondSection extends Component {
                 <img src={webSiteImg} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title ">
-                    Soluções em Tecnologia da Informação
+                    Soluções em TI (Sites, API's e sistemas)
                   </h5>
                   <p class="card-text">
                     Some quick example text to build on the card title and make

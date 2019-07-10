@@ -1,0 +1,113 @@
+#footer {
+  background-color: #fcfcfc;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+#footer .fa-whatsapp {
+  color: #23cd63;
+}
+
+#footer .fa-link {
+  color: #ff6e69;
+}
+#footer .fa-linkedin {
+  color: #0271ae;
+}
+
+#footer .fa-instagram {
+  color: #d22d7e;
+}
+
+#footer .icones-sociais {
+  margin-top: 3%;
+  color: rgb(59, 59, 59, 1);
+  transition: all 0.3s;
+}
+
+#footer .hover-social:hover {
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+#footer .hover-social {
+  transition: all 0.3s;
+}
+
+#footer .icone-contato {
+  color: rgb(59, 59, 59, 0.9);
+}
+
+#footer li {
+  color: rgb(59, 59, 59, 0.8);
+}
+
+#footer .link {
+  color: rgb(59, 59, 59, 0.8);
+  font-weight: 00;
+  transition: all 0.3s;
+}
+
+#footer .link:hover {
+  color: #ff6e69;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+#footer img {
+  width: 100%;
+  max-width: 120px;
+}
+
+#footer .footer-copyright {
+  background-color: #f0f0f0;
+}
+
+#footer .title {
+  font-size: 24px;
+  color: #4b4b4b;
+}
+
+/* BREAKPOINTS  */
+
+/* Extra Small  */
+@media (max-width: 576px) {
+  #footer .fale-conosco {
+    float: right;
+    padding-left: 30px;
+    margin-top: 20px;
+  }
+
+  #footer .hover-social {
+    margin: 2% 10%;
+  }
+}
+
+/* Small  */
+@media (min-width: 576px) {
+  #footer .hover-social {
+    margin-top: 25%;
+  }
+
+  #footer .fale-conosco {
+    float: right;
+    padding-left: 24px;
+  }
+}
+
+/* Medium  */
+@media (min-width: 768px) {
+  #footer .hover-social {
+    margin-top: 8%;
+  }
+
+  #footer .icones-sociais {
+    margin-top: 0;
+  }
+}
+
+/* Large  */
+@media (min-width: 992px) {
+}
+/* Extra large  */
+@media (min-width: 1200px) {
+}

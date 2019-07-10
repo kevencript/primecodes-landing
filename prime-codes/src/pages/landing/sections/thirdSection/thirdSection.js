@@ -28,10 +28,29 @@ export default class ThirdSection extends Component {
           <div className="row">
             <div className="col-md-6 col-sm-12 text-center ">
               <h1 className="title">Entre em Contato</h1>
-              <input placeholder="Digite o seu nome" />
-              <input placeholder="Qual seu e-mail?" />
-              <input placeholder="Digite seu telefone com DDD" />
-              <textarea placeholder="Digite o que nos deseja enviar" />
+
+              <form>
+                <div className="form-group">
+                  <input type="name" placeholder="Digite o seu nome" />
+                </div>
+                <div className="form-group">
+                  <input type="email" placeholder="Qual seu e-mail?" />
+                </div>
+                <div className="form-group">
+                  <input placeholder="Digite seu telefone com DDD" />
+                </div>
+                <div className="form-group">
+                  <textarea placeholder="Digite o que nos deseja enviar" />
+                  <small id="emailHelp" class="form-text text-white">
+                    Iremos responder o mais rápido possível!
+                  </small>
+                </div>
+                <div className="form-group">
+                  <button type="submit" class="btn btn-primary">
+                    Enviar
+                  </button>
+                </div>
+              </form>
             </div>
             <div className="col-md-6 col-sm-12 text-center">
               <img alt="Astronauta PrimeCodes" src={astronauta} />

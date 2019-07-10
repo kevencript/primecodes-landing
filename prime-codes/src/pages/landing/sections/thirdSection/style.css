@@ -9,6 +9,11 @@
   width: 100%;
 }
 
+#third-sec img {
+  top: 15%;
+  position: relative;
+}
+
 #third-sec {
   background-image: url("../../../../img/bg-sec-3.svg");
   background-size: cover;
@@ -29,9 +34,8 @@ textarea {
   width: 70%;
   height: 40px;
   padding: 0 10px;
-  margin-top: 12px;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 #third-sec input,
@@ -42,4 +46,52 @@ textarea:focus {
 
 #third-sec textarea {
   height: 100px;
+  min-height: 100px;
+}
+
+#third-sec .btn {
+  width: 200px;
+}
+
+/* BREAKPOINTS  */
+/* extra  */
+@media (max-width: 576px) {
+  #third-sec img {
+    top: auto;
+  }
+}
+
+/* Small  */
+@media (min-width: 576px) {
+  #third-sec img {
+    top: auto;
+  }
+}
+
+/* Medium  */
+@media (min-width: 768px) {
+  #third-sec img {
+    top: 48.5%;
+  }
+
+  #third-sec input {
+    font-size: 17px;
+  }
+
+  #third-sec textarea {
+    font-size: 17px;
+  }
+}
+
+/* Large  */
+@media (min-width: 992px) {
+  #third-sec img {
+    top: 29.8%;
+  }
+}
+/* Extra large  */
+@media (min-width: 1200px) {
+  #third-sec img {
+    top: 15.7%;
+  }
 }
