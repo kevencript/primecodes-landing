@@ -1,12 +1,13 @@
 {
-  "name": "back-primecodes",
+  "name": "server",
   "version": "1.0.0",
   "description": "mysql e node",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon index.js",
-    "client": "npm run start --prefix client"
+    "client": "npm run start --prefix front-end",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "",
   "license": "ISC",
