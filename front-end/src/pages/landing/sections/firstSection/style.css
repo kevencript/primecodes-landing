@@ -1,5 +1,6 @@
 #main-banner {
   background-image: linear-gradient(to right, #22215b, #35337d);
+  padding-top: 70px;
 }
 
 #main-banner .section-image {
@@ -8,7 +9,9 @@
 }
 
 #main-banner #wave-div {
+  position: sticky;
   margin-top: 50px;
+  bottom: 20px;
 }
 #main-banner .promo-title {
   color: white;
@@ -71,7 +74,7 @@
 /* Dispositivos extra-pequenos (extra-small) */
 @media (max-width: 576px) {
   #main-banner {
-    padding-top: 15px;
+    padding-top: 55px;
   }
 
   #main-banner .promo-title {

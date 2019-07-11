@@ -4,15 +4,27 @@
   padding: 0;
 }
 
-#nav-bar {
-  position: sticky;
-  top: 0;
-  z-index: 10;
-}
-
-.navbar {
+#nav-bar .navbar {
   background-image: linear-gradient(to right, #22215b, #35337d);
   padding: 0;
+  transition: all 0.5s;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  top: 0;
+}
+
+#nav-bar .navbar--hidden {
+  transition: top 0.5s;
+}
+
+#nav-bar .navbar--shadow {
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  transition: all 0.5s;
+}
+
+.navbar-toggler {
+  outline: none !important;
 }
 
 .nav-link {
@@ -56,4 +68,23 @@
   width: 100%;
   max-width: 70px;
   margin-top: 5px;
+}
+
+/* Extra Small */
+@media (max-width: 576px) {
+  #nav-bar .navbar--hidden {
+    top: -100px;
+    transition: top 0.6s;
+  }
+
+  .navbar-nav li a {
+    margin-left: 30px;
+  }
+}
+
+/* Small */
+@media (min-width: 576px) {
+  .navbar-nav li a {
+    margin-left: 30px;
+  }
 }

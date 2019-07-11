@@ -12,7 +12,12 @@ class Footer extends Component {
             <div className="row">
               {/* Sessão das redes sociais */}
               <div class="col-xl-6 col-lg-4 col-md-2 col-sm-1 col-12 flex-center text-center icones-sociais">
-                <a className="li-ic">
+                <a
+                  className="li-ic"
+                  href="https://api.whatsapp.com/send?1=pt_BR&phone=55061991169967&text=Ol%C3%A1!%20Acessei%20a%20PrimeCodes%20pelo%20site%20e%20gostaria%20de%20obter%20mais%20informa%C3%A7%C3%B5es"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i
                     data-toggle="tooltip"
                     data-placement="bottom"
@@ -22,7 +27,12 @@ class Footer extends Component {
                     {" "}
                   </i>
                 </a>
-                <a className="li-ic">
+                <a
+                  className="li-ic"
+                  href="https://www.linkedin.com/company/prime-codes/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i
                     data-toggle="tooltip"
                     data-placement="bottom"
@@ -33,7 +43,12 @@ class Footer extends Component {
                   </i>
                 </a>
 
-                <a className="ins-ic">
+                <a
+                  className="ins-ic"
+                  href="https://www.instagram.com/prime_codes/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i
                     data-toggle="tooltip"
                     data-placement="bottom"

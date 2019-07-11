@@ -33,7 +33,6 @@ export default class FirstSection extends Component {
                   data-toggle="tooltip"
                   data-placement="bottom"
                   title="Que tal uma Logotipo?"
-                  className="btn-web-site"
                   className="btn-design-grafico"
                 >
                   Design Gráfico
@@ -43,7 +42,7 @@ export default class FirstSection extends Component {
 
             {/* Lado DIREITO */}
             <div className="col-md-6 section-image">
-              <img className="section-image" src={image} />
+              <img className="section-image" src={image} alt="" />
             </div>
           </div>
         </div>
