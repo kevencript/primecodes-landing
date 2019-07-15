@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-// Importando Módulos
+// Importando Módulos e Rotas
 const contatoRoutes = require("./routes/contatoRoutes");
 
 // @desc   Contém as rotas de Contato simples
