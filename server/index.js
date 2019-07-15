@@ -2,14 +2,14 @@
 const express = require("express");
 const requireDir = require("require-dir");
 const bodyParser = require("body-parser");
-const router = require("./src/router");
 const mongoose = require("mongoose");
 const keys = require("./src/configs/keys");
 const { mongoURI } = keys;
+requireDir("./src/models");
+const router = require("./src/router");
 
 // MongoDB
 mongoose.connect(mongoURI, { useNewUrlParser: true });
-requireDir("./src/models");
 
 const app = express();
 

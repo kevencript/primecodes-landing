@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const contatoMessage = new mongoose.Schema({
+const mensagem = new mongoose.Schema({
   nome: {
     type: String,
     required: false
@@ -23,4 +23,4 @@ const contatoMessage = new mongoose.Schema({
   }
 });
 
-mongoose.model("contato", contatoMessage);
+mongoose.model("contatoMessage", mensagem);

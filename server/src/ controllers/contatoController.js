@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const contatoMessage = mongoose.model("contato");
+const contatoMessage = mongoose.model("contatoMessage");
 
 // Inserir os dados de contato no banco de dados
 exports.inserir_contato = async (req, res) => {
@@ -14,7 +14,7 @@ exports.inserir_contato = async (req, res) => {
 
   try {
     // inserindo nova mensagem no banco
-    mensagem = new contatoMessage(mensagemPronta);
+    const mensagem = new contatoMessage(mensagemPronta);
     await mensagem.save();
     res.status(200).send(mensagem);
 
